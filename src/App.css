@@ -1,0 +1,54 @@
+.task-management-app {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #bcdbfa;
+}
+
+.task {
+  border: 1px solid #b3d4fc;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #e1effe;
+}
+
+.task h3 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #0f3da1;
+}
+
+.task p {
+  margin-top: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  background-color: #112c68;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 70px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.task-list {
+  margin-top: 20px;
+}
